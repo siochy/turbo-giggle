@@ -2,8 +2,7 @@ import os
 import argparse
 
 parser = argparse.ArgumentParser(description=
-                                 '''Give it full path to folder and it\'ll return tree of content with size.
-                                 Try ''')
+                                 'Give it full path to folder and it\'ll return tree of content with size.')
 parser.add_argument('-f',
                     '--folder',
                     help=r'Input a path to folder. Like "/home/user/bin" for Unix and "C:\user\docs\" for Windows',
