@@ -1,19 +1,26 @@
+"""strings_connector for connect strings from list
+to one lower case string with space between.
+strings_and_ints for filter list resulting string and integer elements.
+double_not_int for double elements in iterable if it's not integer
+"""
+
 import functools
+
 
 list_of_strings = ['asdvsDv', 'iLgbilgjb', 'svbkJKijdio', 'Iuqwyepo']
 
-# connect strings from list to one lower case string with space between
+# strings from list to one string
 strings_connector = functools.reduce(lambda i, j: i + ' ' + j, list_of_strings).lower()
 print(strings_connector)
 
-#######################
+
 some_list = ['fskduvk', 7219, 12.67, 'sdgkusv', [1, 2, 3], 78, 16.98]
 
 # filter list resulting string and integer elements
 strings_and_ints = list(filter(lambda x: type(x) in [int, str], some_list))
 print(strings_and_ints)
 
-#######################
+
 some_tuple = ('sdudvh', 728, ('ki', ' uy', 'iop'), [1, 8.87, 90], 34, 76.098, 'ajlsfi')
 
 # double elements in iterable if it's not integer
