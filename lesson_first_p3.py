@@ -1,9 +1,3 @@
-"""strings_connector for connect strings from list
-to one lower case string with space between.
-strings_and_ints for filter list resulting string and integer elements.
-double_not_int for double elements in iterable if it's not integer
-"""
-
 import functools
 
 
