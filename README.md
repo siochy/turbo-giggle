@@ -7,7 +7,7 @@ lesson_first_p2.py is for Practise 1 Tasks 2, 3
 lesson_first_p3.py is for Practise 1 Task 4
 
 -----------
-Module for Lesson 2.
+# Module for Lesson 2.
 It contains module 'fibo' that returns
 Fibonacci series with count that you can give
 in two ways: iterator and generator.
