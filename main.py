@@ -13,7 +13,7 @@ from cronos import cronos
 
 def show_fib():
     num_random = randint(1, 50)
-    fibo = list(fib_gen(num_random))
+    fibo = fib_gen(num_random)
     for number in fibo:
         print(number)
 
